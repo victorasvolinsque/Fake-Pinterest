@@ -1,6 +1,6 @@
 from flask import render_template
 from flask import url_for
-from FakePinterest import app
+from fakepinterest import app
 
 @app.route('/')
 def homepage():
